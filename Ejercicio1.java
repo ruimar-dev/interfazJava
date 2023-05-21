@@ -2,6 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class Ejercicio1 {
+    //Atribuyos de la clase
     private JFrame ventana;
     public Ejercicio1() {
         construirVentana1();
@@ -9,6 +10,7 @@ public class Ejercicio1 {
         construirVentana3();
     }
 
+    // Metodo para construir la ventana
     public void construirVentana1(){
         ventana = new JFrame ("Primer ejercicio GUI en Java");
         Container panelcontenedor = ventana.getContentPane();
@@ -20,6 +22,7 @@ public class Ejercicio1 {
 
     }
 
+    // Metodo para construir la ventana
     public void construirVentana2(){
         ventana = new JFrame ("Primer ejercicio GUI en Java");
         Container panelcontenedor = ventana.getContentPane();
@@ -44,6 +47,7 @@ public class Ejercicio1 {
         ventana.setSize(400,400);
     }
 
+    // Metodo para construir la ventana
     public void construirVentana3(){
         ventana = new JFrame ("Primer ejercicio GUI en Java");
         Container panelcontenedor = ventana.getContentPane();

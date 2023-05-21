@@ -1,6 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
  public class Ejercicio3 {
+        // Atributos de la clase
      int tableroWidth, tableroHeight;
      int buttonIndex = 0;
 

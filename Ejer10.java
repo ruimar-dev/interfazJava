@@ -4,10 +4,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Ejer10 {
+    //Atribuyos de la clase
     private JFrame ventana;
     public Ejer10(){
         construirVentana();
     }
+    // Metodo para construir la ventana
     private void construirVentana(){
         ventana = new JFrame("Este es el ejercicio pareciado al 8.10");
         Container contenerdor= ventana.getContentPane();
@@ -17,6 +19,7 @@ public class Ejer10 {
         ventana.setVisible(true);
         ventana.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
+    // Metodo para construir el menu
     private  void construirMenu(){
         // Creamos la barra de menú y la añadimos a la ventana
         JMenuBar barraMenu = new JMenuBar();
