@@ -50,6 +50,7 @@ public class Ejer10 {
             public void actionPerformed(ActionEvent e) {
                Ejercicio3 ejercicio3 = new Ejercicio3();
             }});
+        //mcorber está editando este codigo
         menuEjercicio.add(Ejercicio3);
         JMenuItem Ejercicio4 = new JMenuItem("Ejercicio4");
         // Le añadimos un listener para que al pulsar se ejecute el ejercicio adicional 4
